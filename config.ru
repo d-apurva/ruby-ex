@@ -19,7 +19,7 @@ map '/' do
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Sample Ruby application</title>
 
 
 <style>
@@ -226,72 +226,82 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+		  <header>
+          <strong class="logo"><a href="http://click2cloud.net/"><img height="80px" width="99px" src="http://click2cloud.net/wp-content/uploads/2017/01/logo-1.png" alt="Click2Cloud Inc"></a></strong>
+        </header>		
+            <h1>Cloud Infrastructure Automation & Migration Technology Company</h1>
+			<h2>Benefits</h2>
+			<p>Our Visual Studio Extension allows developers to Build, Manage and Deploy containerized .Net and lot more other applications straight from IDE to OpenShift 3 cloud platform on a cloud of your choice. Bring on the benefits of Docker and Kubernetes offered by OpenShift. The power of “AND” eliminates the question to choose Microsoft “OR” Red Hat. Our DevOps solution gives you the choice of a truly heterogeneous environment where Red Hat and Microsoft applications work harmoniously in OpenShift.</p>
           </hgroup>
 
 
         <div class="row">
-          <section class='col-xs-12 col-sm-6 col-md-6'>
+        <section class='col-xs-12 col-sm-6 col-md-6'>
             <section>
-              <h2>Deploying code changes</h2>
+              <h1>Do you need a single development experience across Visual Studio?</h1>
+                <p>If you have investments in both OpenShift and Visual Studio, you are dealing with multiple IDEs and challenges integrating between them. You want to maintain investments in OpenShift and Microsoft but developing in a cross platform cloud leads to increased complexity.
+
+We offer you a seamless DevOps experience for OpenShift and Microsoft with a single IDE across both. Get increased developer productivity and velocity by using our Visual Studio Extension.</p>
+
+              <h3><b>About ASP.Net Images and Templates</b></h3>
                 <p>
-                  The source code for this application is available to be forked from the <a href="https://www.github.com/openshift/ruby-ex">OpenShift GitHub repository</a>.
-                  You can configure a webhook in your repository to make OpenShift automatically start a build whenever you push your code:
+                  Our ASP.Net 4.5 and 5.0 source to images and custom templates enables you to create containerized .Net applications
+IT benefits from lower costs, increased agility and increased utilization in a simplified environment.
+<ul class = "list">
+<li>Create, manage and run .Net applications on OpenShift by using these templates</li>
+<li>Integrate with Mongo DB, MySQL and other services</li>
+<li>Use this on your Enterprise datacenter (Private cloud), public or hybrid cloud or OpenShift Online</li>
+</ul>
                 </p>
+				
+<h4>Documents</h4>
+<ul>
+<li><a href="https://github.com/Click2Cloud/openshift2" target="_blank">Click2Cloud OpenShift 2.X .NET Kit</a></li>
+<li><a href="https://github.com/click2cloud/dotnetonopenshift3" target="_blank">Enable .NET Capabilities on OpenShift 3</a></li>
+<li><a href="http://click2cloud.net/downloads/OSEv2_Deployment_Guide_V1.0.pdf" target="_blank">Click2Cloud OpenShift 2.X with .NET – Deployment Guide</a></li>
+<li><a href="http://click2cloud.net/downloads/Click2Cloud_OpenShift3.X_Origin_VisualStudio2015_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2015 Extension for Redhat OpenShift 3.X Origin – User Guide</a></li>
+<li><a href="http://click2cloud.net/downloads/Click2Cloud_OpenShift3.X_Enterprise_VisualStudio2015_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2015 Extension for Redhat OpenShift 3.X Enterprises – User Guide</a></li>
+<li><a href="http://click2cloud.net/downloads/Click2Cloud_OpenShift2.X_VisualStudio_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2012+ Extension for Redhat OpenShift 2.X – User Guide</a></li>
+<li><a href="http://click2cloud.net/downloads/Click2Cloud_OpenShift2.X_Visual%20Studio_Tool_Guide_to_Deploy_Sample_Applications_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2012+ Extension for Redhat OpenShift 2.X – Create Sample Application</a></li>
+</ul>
 
-<ol>
-  <li>From the Web Console homepage, navigate to your project</li>
-  <li>Click on Browse &gt; Builds</li>
-  <li>From the view for your Build click on the button to copy your GitHub webhook</li>
-  <li>Navigate to your repository on GitHub and click on repository settings &gt; webhooks</li>
-  <li>Paste your webhook URL provided by OpenShift &mdash; that's it!</li>
-</ol>
-<p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to OpenShift to verify it can reach the server.</p>
-<p>Note: adding a webhook requires your OpenShift server to be reachable from GitHub.</p>
 
-                <h3>Working in your local Git repository</h3>
-                <p>If you forked the application from the OpenShift GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
+            </section>
 
-<pre>$ git clone &lt;git_url&gt; &lt;directory_to_create&gt;
-
-# Within your project directory
-# Commit your changes and push to OpenShift
-
-$ git commit -a -m 'Some commit message'
-$ git push</pre>
-
-<p>After pushing changes, you'll need to manually trigger a build if you did not setup a webhook as described above.</p>
-      </section>
           </section>
           <section class="col-xs-12 col-sm-6 col-md-6">
 
-                <h2>Managing your application</h2>
+                <h2>Do you need Docker container and Kubernetes empowered .Net applications?</h2>
 
-                <p>Documentation on how to manage your application from the Web Console or Command Line is available at the <a href="http://docs.openshift.org/latest/dev_guide/overview.html">Developer Guide</a>.</p>
+                <p>Do you have a complex environment of Windows applications you must maintain and you want to migrate from large applications to small and agile containers? Use our custom templates containing Docker image of .Net with other services e.g. MySQL and MongoDB, to create containerized applications of your choice.
 
-                <h3>Web Console</h3>
-                <p>You can use the Web Console to view the state of your application components and launch new builds.</p>
+Push your existing application source code to repository and convert it to a new containerized app in OpenShift and get the flexibility, lowered costs and simplified operations you need.</p>
 
-                <h3>Command Line</h3>
-                <p>With the <a href="http://docs.openshift.org/latest/cli_reference/overview.html">OpenShift command line interface</a> (CLI), you can create applications and manage projects from a terminal.</p>
+                <h3><b>Visual Studio Extension By CLICK2CLOUD</b></h3>
+                <p>Our Visual Studio Extension “OpenShift Tool for Visual Studio” provide developers with a seamless DevOps experience across environments increasing developer productivity, agility and velocity.
 
-                <h2>Development Resources</h2>
-                  <ul>
-                    <li><a href="http://docs.openshift.org/latest/welcome/index.html">OpenShift Documentation</a></li>
-                    <li><a href="https://github.com/openshift/origin">Openshift Origin GitHub</a></li>
-                    <li><a href="https://github.com/openshift/source-to-image">Source To Image GitHub</a></li>
-                    <li><a href="http://docs.openshift.org/latest/using_images/s2i_images/ruby.html">Getting Started with Ruby on OpenShift</a></li>
-                    <li><a href="http://stackoverflow.com/questions/tagged/openshift">Stack Overflow questions for OpenShift</a></li>
-                    <li><a href="http://git-scm.com/documentation">Git documentation</a></li>
-                  </ul>
+With the Visual Studio Extension developers can develop and deploy .Net applications in both your Windows and OpenShift environments.
 
+With this Extension you can also deploy applications based on several other technologies (e.g. Java, Ruby, Python, PHP, Node.js, Perl) on both your Windows and OpenShift environment.</p>
+<ul class = "list">
+<li>Choose the IDE they are familiar with making the developer’s life easier.</li>
+<li>Controls and templates to help you get the most out of Visual Studio.</li>
+<li>Plugins are integrated with source repositories for streamlined deployment and versioning.</li>
+</ul>
+
+                <h3><b>Videos and Downloads<b></h3>
+				<h4>EXPLORE MORE</h4>
+				<ul>
+				<li>
+<a class="c_videoCall mfp-iframe lightbox-added" href="https://www.youtube.com/watch?v=eoHQPOLne44" data-toggle="modal" data-target="#videoModal" data-thevideo="https://www.youtube.com/embed/0F6uM7ysMZM" data-videotitle="Click2Cloud OpenShift Extension for Visual Studio #1: Install &amp; Register">Click2Cloud OpenShift Extension for Visual Studio #1: Install &amp; Register</a></li>
+<li><a class="c_videoCall mfp-iframe lightbox-added" href="https://www.youtube.com/watch?v=6fvsYM3sjxk" data-toggle="modal" data-target="#videoModal" data-thevideo="https://www.youtube.com/embed/w2hShR1pT3Q" data-videotitle="Click2Cloud OpenShift Extension for Visual Studio #2: Create New Application">Click2Cloud OpenShift Extension for Visual Studio #2: Create New Application</a></li>
+<li><a class="c_videoCall mfp-iframe lightbox-added" href="https://www.youtube.com/watch?v=-iaVp27oYdY" data-toggle="modal" data-target="#videoModal" data-thevideo="https://www.youtube.com/embed/n88iqcAsbck" data-videotitle="Click2Cloud OpenShift Extension for Visual Studio #3: Modify Existing Application">Click2Cloud OpenShift Extension for Visual Studio #3: Modify Existing Application</a></li>
+<li><a class="c_videoCall mfp-iframe lightbox-added" href="https://www.youtube.com/watch?v=E8Ndmer3AUs" data-toggle="modal" data-target="#videoModal" data-thevideo="https://www.youtube.com/embed/PIaSLuLLNPw" data-videotitle="Click2Cloud OpenShift Extension for Visual Studio #4: OpenShift Explorer">Click2Cloud OpenShift Extension for Visual Studio #4: OpenShift Explorer</a></li>
+</ul>             
 
           </section>
         </div>
-
-        <footer>
-          <div class="logo"><a href="https://www.openshift.com/"></a></div>
-        </footer>
+        
 </section>
 
 
